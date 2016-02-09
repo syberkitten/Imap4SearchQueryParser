@@ -17,7 +17,7 @@ class BadSearchOp(Exception):
 
 class ImapSearchQueryParser(object):
     """
-    Receives a list of commands for the IMAP V4 serach
+    Receives a list of commands for the IMAP V4 search
     and returns a dictionary of the commands, that can be used in various mail API's
     including walla API for mail
 
