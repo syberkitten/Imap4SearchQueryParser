@@ -3,7 +3,7 @@
 This code is more for a GIST then whole repository,
 so future plans inclue normazliation according to demand :)
 ### Usage:
-Simply executing the module will run afew query tests
+Simply executing the module will run a few query command tests
 ```py
 python SearchParser.py
 ````
