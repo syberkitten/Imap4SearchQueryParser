@@ -2,6 +2,22 @@
 
 This code is more for a GIST then whole repository,
 so future plans inclue normazliation according to demand :)
+
+Implementing a pseudo Parse Tree algorythm economically and specifically designed
+for parsing imap search query commands into dictionary entities that can be 
+passed to different layers in your application, to handle the actual retrieving
+of the mesasges.
+
+The class therefore normalizes the search query commands into a filter list
+made of flags and commands with arguments, supporting NOT and OR operators.
+
+also to note, that OR by design can be used only once
+in the command list, otherwise it would be merged with previous OR commands.
+
+It is possible to change this paradigm, but for pragmatic reasons and concensus
+the code can handle only one OR, and multiple NOT commands.
+
+
 ### Usage:
 Simply executing the module will run a few query command tests
 ```py
